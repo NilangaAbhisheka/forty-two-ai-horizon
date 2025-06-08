@@ -7,22 +7,22 @@ const About = () => {
     {
       icon: Target,
       title: 'Mission',
-      description: 'To democratize AI technology and make intelligent automation accessible to businesses of all sizes.',
+      description: 'To empower businesses with custom software solutions that drive growth and innovation.',
     },
     {
       icon: Eye,
       title: 'Vision',
-      description: 'A world where AI seamlessly integrates with human creativity to solve complex challenges.',
+      description: 'A world where every business has access to powerful, tailored software solutions.',
     },
     {
       icon: Award,
-      title: 'Excellence',
-      description: 'We maintain the highest standards in AI development and deployment practices.',
+      title: 'Quality',
+      description: 'We maintain the highest standards in code quality, testing, and delivery practices.',
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'We believe the best AI solutions emerge from diverse teams working together.',
+      title: 'Partnership',
+      description: 'We work as an extension of your team, committed to your long-term success.',
     },
   ];
 
@@ -34,8 +34,8 @@ const About = () => {
             About <span className="gradient-text">42.ai</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            Born from the intersection of cutting-edge research and practical business needs, 
-            42.ai is pioneering the next generation of intelligent automation solutions.
+            We're a team of passionate developers, designers, and strategists who believe 
+            great software can transform businesses and create lasting impact.
           </p>
         </div>
 
@@ -43,18 +43,18 @@ const About = () => {
           <div>
             <h3 className="text-3xl font-bold mb-6">Our Story</h3>
             <p className="text-foreground/80 mb-6 leading-relaxed">
-              Founded by a team of AI researchers and industry veterans, 42.ai emerged from the 
-              realization that while AI technology was advancing rapidly, businesses struggled 
-              to implement these solutions effectively.
+              Founded by experienced developers who saw the gap between business needs and 
+              technical execution, 42.ai emerged as a solution-focused software development 
+              company dedicated to building applications that actually work.
             </p>
             <p className="text-foreground/80 mb-6 leading-relaxed">
-              We bridge this gap by providing enterprise-grade AI solutions that are both 
-              powerful and practical, helping organizations transform their operations and 
-              unlock new possibilities.
+              We combine technical expertise with business acumen to deliver software that 
+              not only meets requirements but drives real business outcomes. From MVPs to 
+              enterprise solutions, we're your trusted development partner.
             </p>
             <div className="glass-dark rounded-lg p-6">
               <div className="text-2xl font-bold gradient-text mb-2">Founded in 2023</div>
-              <div className="text-foreground/60">With a vision to make AI accessible to all</div>
+              <div className="text-foreground/60">Building the future of custom software development</div>
             </div>
           </div>
 
@@ -66,10 +66,9 @@ const About = () => {
               <div className="relative z-10">
                 <h4 className="text-2xl font-bold mb-4 gradient-text">Why 42?</h4>
                 <p className="text-foreground/80 leading-relaxed">
-                  Inspired by Douglas Adams' "The Hitchhiker's Guide to the Galaxy," 
-                  where 42 is the answer to the ultimate question of life, the universe, 
-                  and everything. We believe AI is the key to unlocking humanity's 
-                  greatest challenges.
+                  In "The Hitchhiker's Guide to the Galaxy," 42 is the answer to the ultimate 
+                  question of life, the universe, and everything. For us, custom software is 
+                  the answer to unlocking your business's full potential.
                 </p>
               </div>
             </div>

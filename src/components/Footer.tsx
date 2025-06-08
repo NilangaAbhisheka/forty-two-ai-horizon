@@ -4,10 +4,10 @@ import { Github, Linkedin, Twitter, Mail } from 'lucide-react';
 
 const Footer = () => {
   const footerLinks = {
-    Company: ['About Us', 'Careers', 'Press', 'Contact'],
-    Services: ['AI Integration', 'Automation', 'Analytics', 'Consulting'],
-    Resources: ['Blog', 'Documentation', 'Case Studies', 'Support'],
-    Legal: ['Privacy Policy', 'Terms of Service', 'Cookie Policy', 'GDPR'],
+    Services: ['Web Development', 'Mobile Apps', 'Backend APIs', 'UI/UX Design'],
+    Technologies: ['React & Next.js', 'Node.js', 'React Native', 'Cloud Services'],
+    Company: ['About Us', 'Careers', 'Blog', 'Contact'],
+    Support: ['Documentation', 'Help Center', 'Project Portal', 'Status'],
   };
 
   const socialLinks = [
@@ -28,8 +28,8 @@ const Footer = () => {
               <span className="gradient-text">42.ai</span>
             </div>
             <p className="text-foreground/70 mb-6 leading-relaxed">
-              Pioneering the future of artificial intelligence with innovative solutions 
-              that transform businesses and empower human potential.
+              Building custom software solutions that drive business growth. 
+              From startups to enterprises, we turn your ideas into powerful applications.
             </p>
             <div className="flex space-x-4">
               {socialLinks.map((social) => (
@@ -71,7 +71,7 @@ const Footer = () => {
             <div>
               <h3 className="text-2xl font-bold mb-2 gradient-text">Stay Updated</h3>
               <p className="text-foreground/70">
-                Get the latest insights on AI trends, updates, and exclusive content 
+                Get development insights, project updates, and exclusive content 
                 delivered to your inbox.
               </p>
             </div>

@@ -1,44 +1,44 @@
 
 import React from 'react';
-import { Brain, Cog, BarChart3, Database, Code, Zap } from 'lucide-react';
+import { Globe, Smartphone, Database, Cloud, TestTube, Palette } from 'lucide-react';
 
 const Services = () => {
   const services = [
     {
-      icon: Brain,
-      title: 'AI Integration',
-      description: 'Seamlessly integrate AI capabilities into your existing systems and workflows.',
-      features: ['Custom AI Models', 'API Integration', 'Real-time Processing'],
+      icon: Globe,
+      title: 'Web Development',
+      description: 'Custom web applications built with modern frameworks and optimized for performance.',
+      features: ['React & Next.js', 'Full-Stack Solutions', 'Progressive Web Apps'],
     },
     {
-      icon: Cog,
-      title: 'Process Automation',
-      description: 'Automate complex business processes to increase efficiency and reduce costs.',
-      features: ['Workflow Optimization', 'RPA Solutions', 'Smart Scheduling'],
-    },
-    {
-      icon: BarChart3,
-      title: 'Predictive Analytics',
-      description: 'Leverage data-driven insights to make informed decisions and predict trends.',
-      features: ['Forecasting Models', 'Risk Assessment', 'Performance Optimization'],
+      icon: Smartphone,
+      title: 'Mobile Development',
+      description: 'Native and cross-platform mobile apps that deliver exceptional user experiences.',
+      features: ['iOS & Android', 'React Native', 'Flutter Apps'],
     },
     {
       icon: Database,
-      title: 'Data Engineering',
-      description: 'Build robust data pipelines and infrastructure for your AI initiatives.',
-      features: ['ETL Pipelines', 'Data Warehousing', 'Real-time Streaming'],
+      title: 'Backend & APIs',
+      description: 'Robust backend systems and APIs that scale with your business needs.',
+      features: ['RESTful APIs', 'GraphQL', 'Microservices'],
     },
     {
-      icon: Code,
-      title: 'Custom AI Development',
-      description: 'Develop bespoke AI solutions tailored to your specific business needs.',
-      features: ['ML Algorithms', 'Neural Networks', 'Computer Vision'],
+      icon: Cloud,
+      title: 'Cloud & DevOps',
+      description: 'Cloud infrastructure and CI/CD pipelines for reliable, scalable deployments.',
+      features: ['AWS & Azure', 'Docker & Kubernetes', 'Automated Deployment'],
     },
     {
-      icon: Zap,
-      title: 'AI Consulting',
-      description: 'Strategic guidance to help you navigate your AI transformation journey.',
-      features: ['AI Strategy', 'Technology Assessment', 'Implementation Planning'],
+      icon: TestTube,
+      title: 'QA & Testing',
+      description: 'Comprehensive testing strategies to ensure your software works flawlessly.',
+      features: ['Automated Testing', 'Quality Assurance', 'Performance Testing'],
+    },
+    {
+      icon: Palette,
+      title: 'UI/UX Design',
+      description: 'User-centered design that combines beautiful interfaces with intuitive experiences.',
+      features: ['User Research', 'Prototyping', 'Design Systems'],
     },
   ];
 
@@ -50,8 +50,8 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-xl text-foreground/80 max-w-3xl mx-auto">
-            Comprehensive AI solutions designed to transform your business operations 
-            and drive sustainable growth.
+            End-to-end software development services designed to bring your ideas to life 
+            and scale your business to new heights.
           </p>
         </div>
 
@@ -92,14 +92,14 @@ const Services = () => {
         <div className="text-center mt-16">
           <div className="glass rounded-2xl p-8 max-w-4xl mx-auto">
             <h3 className="text-3xl font-bold mb-4">
-              Ready to Transform Your Business?
+              Ready to Build Something Amazing?
             </h3>
             <p className="text-foreground/80 mb-6 max-w-2xl mx-auto">
-              Let's discuss how our AI solutions can solve your specific challenges 
-              and unlock new opportunities for growth.
+              Let's discuss your project requirements and create a custom solution 
+              that drives your business forward.
             </p>
             <button className="bg-gradient-to-r from-blue-500 to-purple-600 px-8 py-4 rounded-lg font-semibold text-white hover:scale-105 transition-all duration-300 glow-blue">
-              Schedule a Consultation
+              Start Your Project
             </button>
           </div>
         </div>
